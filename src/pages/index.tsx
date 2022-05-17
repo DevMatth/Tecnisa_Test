@@ -31,7 +31,7 @@ export default function Home({data}: ComponentProps) {
   return (
     <>
       <Header />
-      <Slider image="linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/dp_campo_belo_tecnisa_1.svg)"/>
+      <Slider/>
       <MenuComponent />
       <Grid
         templateColumns="repeat(4, 1fr)"
